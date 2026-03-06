@@ -46,5 +46,15 @@ namespace Cuentale
         {
 
         }
+
+        private void label15_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label16_Click(object sender, EventArgs e)
+        {
+            Application.Exit(); // Cierra la aplicación
+        }
     }
 }
