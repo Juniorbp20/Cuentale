@@ -36,5 +36,15 @@ namespace Cuentale
         {
 
         }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void clonarReposiToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
