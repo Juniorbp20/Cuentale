@@ -1,3 +1,5 @@
+using Cuentale.UI;
+
 namespace Cuentale
 {
     public partial class VentanaPrincipal : Form
@@ -101,6 +103,13 @@ namespace Cuentale
         private void button9_Click(object sender, EventArgs e)
         {
             Application.Exit(); // Cierra la aplicación
+        }
+
+        private void label23_Click(object sender, EventArgs e)
+        {
+            // Esto abrirá la ventana que acaba de crear
+            FormInventario ventanaInventario = new FormInventario();
+            ventanaInventario.ShowDialog();
         }
     }
 }
