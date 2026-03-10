@@ -2,9 +2,9 @@ using Cuentale.UI;
 
 namespace Cuentale
 {
-    public partial class VentanaPrincipal : Form
+    public partial class MainForm : Form
     {
-        public VentanaPrincipal()
+        public MainForm()
         {
             InitializeComponent();
         }
